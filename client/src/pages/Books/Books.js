@@ -59,7 +59,7 @@ class Books extends Component {
               <h1>What Books Should I Read?</h1>
 
             </Jumbotron>
-              <h1>Number of Books Read... {this.state.books.length}</h1>
+              <h1>Number of Books to Read... {this.state.books.length}</h1>
             <form>
               <Input name="title" onChange={this.handleInputChange} placeholder="Title (required)" />
               <Input name="author" onChange={this.handleInputChange} placeholder="Author (required)" />
